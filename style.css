@@ -1,0 +1,73 @@
+*{
+    margin :0;
+    padding :0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body,html{
+    width : 100%;
+    height : 100%;
+}
+.main{
+    width : 100%;
+    height : 100%;
+    background-color: rgb(138, 227, 227);
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    width : 80%;
+    height : 80%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.panel-top{
+    width: 100%;
+    height : 80px;
+    background-color: rgb(80, 178, 180);
+    padding :0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ele{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+.box{
+    padding : 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.panel-bottom{
+    padding : 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 10px;
+}
+#panel-btm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    border-radius: 50%;
+    color :aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    padding : 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(21, 86, 86);
+}
+.bubble:hover{
+    background-color: rgb(13, 62, 62);
+    cursor: pointer;
+}
